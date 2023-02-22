@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bootcamptask/static/css/main.1b117949.css",
+    "main.js": "/bootcamptask/static/js/main.df800548.js",
+    "static/media/backPh.png": "/bootcamptask/static/media/backPh.835408777c4d5b90900e.png",
+    "static/media/HelveticaNeue.ttc": "/bootcamptask/static/media/HelveticaNeue.67d426c3bd180e2ea838.ttc",
+    "static/media/logoRound.svg": "/bootcamptask/static/media/logoRound.16277e3678af1a090234c7f90827accc.svg",
+    "static/media/redstar.svg": "/bootcamptask/static/media/redstar.fa65f2f1a21c528e92206683e08c9871.svg",
+    "static/media/HelveticaNeueRegular.ttf": "/bootcamptask/static/media/HelveticaNeueRegular.c86949df96f849b306b7.ttf",
+    "static/media/HelveticaNeueLight.ttf": "/bootcamptask/static/media/HelveticaNeueLight.b170f1b540356a58a19a.ttf",
+    "static/media/HelveticaNeueMedium_1.ttf": "/bootcamptask/static/media/HelveticaNeueMedium_1.ecd370f84f8bf3a784a0.ttf",
+    "static/media/HelveticaNeueHeavy.ttf": "/bootcamptask/static/media/HelveticaNeueHeavy.330d56d0a73c0fe92708.ttf",
+    "static/media/HelveticaNeueBold.ttf": "/bootcamptask/static/media/HelveticaNeueBold.d2e002cd45a0df2d6f01.ttf",
+    "static/media/HelveticaNeueThin.ttf": "/bootcamptask/static/media/HelveticaNeueThin.5cdb6c3f7cda1a176a67.ttf",
+    "static/media/HelveticaNeueBlackCond.ttf": "/bootcamptask/static/media/HelveticaNeueBlackCond.44bb3475279b085339bc.ttf",
+    "static/media/email.svg": "/bootcamptask/static/media/email.940654db9dd5bf6109ec4ed3fb7ef087.svg",
+    "static/media/wrong.svg": "/bootcamptask/static/media/wrong.2a0942c0211e1a6a902e410d4568866e.svg",
+    "static/media/phone.svg": "/bootcamptask/static/media/phone.52a69cc71e267acb7c6acfcc88401a43.svg",
+    "static/media/Correct.svg": "/bootcamptask/static/media/Correct.f58022d87d53ae7161d4d84a6dec7b87.svg",
+    "index.html": "/bootcamptask/index.html",
+    "main.1b117949.css.map": "/bootcamptask/static/css/main.1b117949.css.map",
+    "main.df800548.js.map": "/bootcamptask/static/js/main.df800548.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b117949.css",
+    "static/js/main.df800548.js"
+  ]
+}
