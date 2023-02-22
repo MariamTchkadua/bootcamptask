@@ -1,38 +1,545 @@
-.App {
-  text-align: center;
+
+
+/* Fonts are imported in Index.css file */
+
+.App{
+    max-width: 1920px;
+    max-height: 1080px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.container{
+    max-height: 1080px;
+    max-width: 1920px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./photos/backPh.png);
+    background-size: '100% 100%';
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.redberry{
+    width: 236px;
+    height: 38px;
+    margin-left: 70px;
+    margin-top: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.hr{
+    width: 92%;
+    border: 1px solid #1A1A1A;
+    margin-top: 26px;
+    margin-left: 70px;
+}
+.roundlogo{
+    width: 299px;
+    height: 299px;
+    margin-left: 1076px;
+    margin-top: 384px;
+}
+.but{
+    position: absolute;
+    width: 464px;
+    height: 60px;
+    background: #1A1A1A;
+    color: #FFFFFF;
+    font-family: 'HelveticaNeueMedium';
+    font-size: 20px;
+    border-radius: 8px;
+    top: 514px;
+    left: 728px;
+}
+
+
+
+.cvPage{
+    width: 822px;
+    height: 100%;
+    
+}
+
+/* private info page */
+
+.container2{
+    width: 1098px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    background: #ebebeb;
+}
+
+.header1{
+    display: flex;
+    margin-top: 45px;
+    width: 89%;
+    align-items: center;
+    margin-right: 110px;
+    margin-left: 48px;
+}
+.fixedBox{
+    background-color: #FFFFFF;
+}
+.vectorBox{
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.headerContainer{
+    width: 806px;
+    margin-left: 61px;
+}
+.headerBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 41px;
+}
+.infoTxt{
+    font-family: 'HelveticaNeueBold';
+    font-size: 24px;
+    line-height: 29px;
+}
+.pageNumber{
+    font-family: 'HelveticaNeueRegular';
+    font-weight: 600;
+    font-size: 20px;
+    color: #1A1A1A;
+}
+
+
+.nameSection{
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.nameSurnameBox{
+    width: 48.5%;
+}
+
+/* all Headers */
+.allHeaders{
+    font-family: "HelveticaNeue";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* all instruction */
+.allInstruction{
+    font-family: 'HelveticaNeueLight';
+    font-size: 14px;
+    color: #2E2E2E;
+    font-weight: 100;
+    flex: none;
+    line-height: 21px;
+}
+
+.wrong{
+    width: 21px;
+    height: 18.5px;
+    display: none;
+}
+#wrongAll{
+    display: block;
+}
+.correct{
+    width: 16.5px;
+    height: 16.5px;
+    display: none;
+}
+#correctAll{
+    display: block;
+}
+
+.nameInputs{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.inpuBox{
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    width: 371px;
+    justify-content: space-around;
+}
+.nameSurnameInput{
+    border: none;
+    height: 90%;
+    width: 320px;
+    font-family: "HelveticaNeue";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+
+.photoSection{
+    display: flex;
+    align-items: center;
+    width: 76%;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+label {
+    font-family: 'HelveticaNeueLight';
+    margin-left: 19px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 107px;
+    height: 30px;
+    color: #FFFFFF;
+    background: #0E80BF;
+    border-radius: 4px;
+}
+
+
+/* about me  */
+
+.aboutMeSection{
+    width: 798px;
+    margin-left: 150px;
+    margin-top: 49px;
+}
+.aboutMeBox{
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+}
+.aboutMe{
+    width: 95%;
+    margin-left: 16px;
+    border: none;
+    display: flex;
+    padding-top: 13px;
+    padding-bottom: 69px;
+    outline: "none",
+}
+
+
+.contactInfo{
+    margin-top: 33px;
+    width: 832.5px;
+    margin-left: 150px;
+}
+
+.emailInputBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.emailInputDiv{
+    width: 798px;
+    border: 1px solid #BCBCBC;
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.emailInput{
+    width: 754.75px;
+    height: 90%;
+    border: none;
+    margin-left: 16px;
+}
+.phoneSection{
+    margin-top: 29px;
+}
+.next1{
+    width: 151px;
+    height: 48px;
+    background: #6B40E3;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    margin-left: 797px;
+    margin-top: 65px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "HelveticaNeue";
+}
+
+/* getting infro from private info page to cv page */
+
+
+
+.addPageTwoSection{
+    display: flex;
+    width: 418px;
+}
+
+.getNameSurname{
+    margin-top: 68px;
+    height: 42px;
+    font-family: 'HelveticaNeueBold';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 42px;
+    color: #F93B1D;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 418px;
+}
+.getEm{
+    color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 418px;
+    height: 18px;
+    font-family: 'HelveticaNeueLight';
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.getPh{
+    margin-top: 10px;
+    height: 18px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 418px;
+    font-family: 'HelveticaNeueLight';
+    font-weight: 400;
+}
+
+.allCvHeadres{
+    font-family: 'HelveticaNeueBold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #F93B1D;
+}
+.aM{
+    margin-left: 80px;
+    margin-top: 34px;
+    font-size: 16px;
+    
+}
+.abMTx{
+    height: 72px;
+    overflow: auto;
+}
+.setImage{
+    width: 246px;
+    height: 246px;
+    border-radius: 133px;
+    margin-top: 48px;
+}
+.cvImg{
+    width: 246px;
+    height: 246px;
+    border-radius: 133px;
+}
+
+
+
+
+
+
+
+
+
+/* pageThree */
+
+#profession{
+    margin-left: 150px;
+    width: 832.5px;
+    margin-top: 47px;
+}
+
+#employer{
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 832.5px;
+}
+
+
+/* date section */
+
+.dateSection{
+    margin-left: 150px;
+    width: 798px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.startContainer{
+    width: 371px;
+}
+.dateInput{
+    width: 341px;
+    height: 48px;
+}
+
+/* box of input start and end */
+.date{
+    width: 371;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #BCBCBC;
+}
+.dateInput{
+    border: none;
+}
+
+
+
+/* describtion section */
+
+
+.describeSection{
+    margin-top: 30px;
+    width: 798px;
+    margin-left: 150px;
+}
+.describeBox{
+    
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+}
+.describeInput{
+    border: none;
+    width: 98%;
+    padding-top: 13px;
+    padding-bottom: 89px;
+}
+
+/* hr */
+.hrhr{
+    width: 798px;
+    margin-left: 150px;
+    margin-top: 38px;
+    border: 1px solid #C1C1C1;
+}
+
+
+/* more experience button */
+
+.moreExperience{
+    width: 289px;
+    height: 48px;
+    background: #62A1EB;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+/* next and prev buttons */
+.nextPrevBut{
+    width: 798px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 84px;
+    margin-left: 150px;
+}
+.backBut{
+    width: 113px;
+    height: 48px;
+    background: #6B40E3;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.nextBut{
+    background: #6B40E3;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    width: 151px;
+    height: 48px;
+    border: none;
+}
+
+
+
+/* page three Cv paart */
+.cvHr1{
+    width: 662px;
+}
+.cvPart2{
+    margin-left: 80px;
+}
+.cvDescribe{
+    height: 66px;
+    overflow: auto;
+}
+
+
+
+/* page Four start */
+
+.degreeSection{
+    margin-left: 150px;
+    width: 798px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.selectedDiv{
+    width: 371px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+}
+
+.selected{
+    
+    width: 339px;
+    appearance: none;
+    border: none;
+}
+select:focus {
+    outline: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

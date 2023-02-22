@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'HelveticaNeueBold';
+  src:local("HelveticaNeueBold"),
+    url(./transfonter.org-20230204-075538/HelveticaNeueBold.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueHeavy';
+  src:local("HelveticaNeueHeavy"),
+    url(./transfonter.org-20230204-075538/HelveticaNeueHeavy.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueBlackCond';
+  src:local("HelveticaNeueBlackCond"),
+    url(./transfonter.org-20230204-075538/HelveticaNeueBlackCond.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueThin';
+  src:local("HelveticaNeueThin"),
+    url(./transfonter.org-20230204-075538/HelveticaNeueThin.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueRegular';
+  src:local("HelveticaNeueRegular"),
+    url(./transfonter.org-20230204-075538/HelveticaNeueRegular.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueMedium';
+  src:local("HelveticaNeueMedium"),
+    url(./transfonter.org-20230204-075538/HelveticaNeueMedium_1.ttf) format("truetype");
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src:local("HelveticaNeueLight"),
+    url(./transfonter.org-20230204-075538/HelveticaNeueLight.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./font/HelveticaNeue.ttc") format("truetype");
+  font-weight: normal;
+}
